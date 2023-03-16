@@ -1,0 +1,229 @@
+.ourOffering{
+    display: flex;
+    width: 100vw;
+    background-color: green;
+    height: 4vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#e9312d, #3e9226,55%, #f7f750);
+}
+.ourofferingtxt{
+    font-style: normal;
+    display: flex;
+    width: auto;
+    height: auto;
+    font-weight: bolder;
+    font-size: x-large;
+    text-decoration: underline solid 3px;
+}
+.homecontactrvwus{
+    display: flex;
+    margin-left: 23vw;
+    background-color: #a5d3e3;
+    width: 50vw;
+    margin-top: 2em;
+    border: 4px solid #e9312d; 
+    border-radius: 12px;
+}
+ul {
+    margin-left: 18.7vw;
+}
+span{
+    margin-left: 5vw;
+}
+.third{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 2em;
+    background-color: #71f6cf;
+    width: 100vw;
+    height: auto;
+    justify-items: center;
+    gap:2em;
+}
+.item {
+    background-color: #62fbfb;
+    border: 3px solid #347521;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .item4 {
+    grid-area: 2/2/3/3;
+    gap: 0em;
+  }
+ .topperfrmrbox{
+    display: flex;
+    margin-top: 2em;
+    height: 3.6em;
+    align-items: end;
+    background: linear-gradient(to right,#e9312d, #fef351,85%, #e9312d);
+
+ }
+ .topprmorfemrtxt{
+    display: flex;
+    font-size: larger;
+    text-align: end;
+    align-items: end;
+ }
+ .performernameBox{
+    grid-template-columns: repeat(4, 2fr);
+    background: radial-gradient(#1e3dea,#50c088);
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .akashguptaBox,.rishavBox,.GuvravBox,.shivamBox{
+    display: block;
+    height: auto;
+    width: auto;
+    background-color: #fef850;
+    border: 2px #ea322e solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ .wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    background-color: #ffffff;
+    gap: 0.6em;
+    margin-top: 2em;
+    border:1px solid red;
+}
+.item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+.item1{
+    grid-area: 1/1/2/8;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    background-color: #e83949;
+    color: #fffbfd;
+}
+.item2{
+    grid-area: 2/1/3/3;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    background-color: #58d16e;
+    color: #fffbfd;
+}
+.item3{
+    grid-area: 2/3/3/5;
+    font-size: x-large;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bolder;
+    background-color: #2583f0;
+    color: #fffbfd;
+}
+.item4{
+    grid-area: 2/5/3/7;
+    font-size: large;
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bolder;
+    color: #fffbfd;
+    background-color: #4947e2;
+}
+/* .item5{
+    grid-area: 2/7/6/8;
+} */
+.item5{
+    grid-area: 3/1/3/7;
+    font-size: large;
+    /* display: flex; */
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bolder;
+    color: white;
+    background-color: #f39a3d;
+}
+.item8{
+    grid-area: 4/1/5/8;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: black;
+    background-color: #51cccc;
+}
+.item6{
+    grid-area: 2/7/4/8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    background-color: #282e37;
+    color: #fffbfd;
+}
+.item6>ul{
+    padding-right: 10px;
+}
+.wrapper2{
+    display: grid;
+    justify-content: space-around;
+    gap: 1em;
+    margin-top:2em;
+    grid-template-columns: auto auto auto;
+    background-color: #71f6cf;
+    height: 25vh;
+}
+.itemA{
+    display:flex;
+    width: 30vw;
+    justify-content: center;
+    height: 12vh;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #64fafb;
+    font-weight: bolder;
+
+}
+.itemB{
+    display:flex;
+    width: 30vw;
+    height: 12vh;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #64fafb;
+    font-weight: bolder;
+
+}
+
+.itemC{
+    display:flex;
+    width: 30vw;
+    height: 12vh;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #64fafb;
+    font-weight: bolder;
+}
+.itemD{
+    display:flex;
+    width: 30vw;
+    height: 10vh;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #64fafb;
+    align-self: center;
+    position: absolute;
+    margin-left: 34.4vw;
+    margin-top: 11vh;
+    font-weight: bolder;
+
+}
