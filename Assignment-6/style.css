@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header::before{
+    background: url('./Images/shara\ desert.jpg')no-repeat center center/cover;
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 1.5;
+    z-index: -1;
+}
+#left{
+    position: relative;
+    left: 105px;
+    top: 10px;
+}
+#left img{
+    display: block;
+    width: 65px;
+}
+#Mid{
+    display: flex;
+    width: 100%;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#Right img{
+    display: block;
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 155px;
+    cursor: pointer;
+}
+#Middle{
+    position: absolute;
+    top: 10px;
+    right: 255px;
+}
+
+ ul{
+    display: flex;
+    overflow: auto;
+}
+li{
+    list-style: none;
+    padding: 12px 20px;
+    /* text-decoration: none; */
+    /* text-align: center; */
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+/* Middle Part */
+.Mid{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 56px 0px;
+}
+/* Middle Left Part */
+
+#Mid-Left p{
+    color: white;
+    line-height: 27px;
+    text-align: left;
+}
+.btn{
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 8px 3px;
+    margin: 20px 0px;
+}
+/* Middle Right Part */
+ h1{
+    color: white;
+    font-size: 87px;
+}
+
+#Mid-Right{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    /* margin-left: 175px; */
+}
+.box, .item img{
+    transition: all 0.3s ease-in;
+}
+.item img{
+    display: block;
+    height: 200px;
+    width: 210px;
+    border-radius: 15px;
+}
+.item p,h4{
+   color: white;
+    
+}
+.item p{
+   font-size: 12px; 
+   line-height: 22px;
+}
+#box1{
+    position: absolute;
+    top: 131px;
+    right: 424px;
+    width: 190px;
+}
+#box2{
+    position: absolute;
+    top: 131px;
+    right: 181px;
+    width: 190px;
+}
+#box3{
+    position: absolute;
+    bottom: 280px;
+    right: 424px;
+    width: 190px;
+}
+#box4{
+    position: absolute;
+    bottom: 280px;
+    right: 181px;
+    width: 190px;
+}
+.item img:hover{
+    transform: translateY(-15px);
+}
+/* .box:hover{
+    transform: translateY(-15px);
+} */
+
+/* Mobile View */
+@media screen and (min-width: 280px) and (max-width: 600px) {
+    header::before{
+        background: url("./Images/shara\ desert.jpg desert.jpg");
+        content: "";
+        height: 300%;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        opacity: 1.5;
+    }
+
+    /* Upper Part */
+    #left img{
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+    #Mid{
+        width: 100%;
+    }
+    #Middle{
+        position: absolute;
+        top: 10px;
+        right: 115px;
+    }
+    ul{
+        display: block;
+    }
+    li{
+        padding: 5px 20px;
+        text-align: center;
+        /* width: 150px; */
+    }
+    #Right img{
+        position: absolute;
+        top: 10px;
+        right: 40px;
+    }
+    /* Middle Parth */
+    .Mid{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 55px;
+    }
+
+     h1{
+        font-size: 30px;
+    }
+    #Mid-Left{
+        position: relative;
+        top: 10px;
+        left: 5px;
+    }
+    #Mid-Left p{
+        font-size: 16px;
+        line-height: 15px;
+        width: 100%;
+    }
+    .btn{
+        height: 5%;
+        width: 30%;
+    }
+    /* Bottom Part */
+    #Mid-Right{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+        position: relative;
+        top: 20px;
+    }
+    .item{
+        height: 100%;
+    }
+
+    .item img{
+        width: 85%;
+        height: 82%;
+    }
+    #box1{
+        position: absolute;
+        top: 30px;
+        left: 40px;
+    }
+    #box2{
+        position: absolute;
+        top: 355px;
+        left: 40px;
+    }
+    #box3{
+        position: absolute;
+        bottom: 510px;
+        left: 40px;
+    }
+    #box4{
+        position: absolute;
+        bottom: 195px;
+        left: 40px;
+    }
+
+}
+/* Tablet View */
+@media screen  and (min-width: 600px) and (max-width: 900px){
+    header::before{
+        background: url("./Images/shara\ desert.jpg desert.jpg");
+        content: "";
+        height: 300%;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        opacity: 1.5;
+    }
+    /* Upper Part */
+    #left img{
+        position: absolute;
+        top: 35px;
+        right: 10px;
+    }
+    #Mid{
+        width: 100%;
+    }
+    #Middle{
+        position: absolute;
+        top: 45px;
+        right: 180px;
+        width: 35%;
+    }
+    ul{
+        width: 280px;
+    }
+    
+    li{
+        padding: 5px 15px;
+        text-align: center;
+        font-size: 20px;
+    }
+    #Right img{
+        position: absolute;
+        top: 35px;
+        right: 75px;
+    }
+    /* Middle Part */
+     .Mid{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 55px;
+    } 
+
+     h1{
+        font-size: 40px;
+    }
+    #Mid-Left{
+        position: relative;
+        top: 50px;
+        left: 1px;
+        width: 90%;
+    }
+    #Mid-Left p{
+        font-size: 22px;
+        line-height: 35px;
+        width: 100%;
+    }
+    .btn{
+        height: 50px;
+        width: 300px;
+    }
+    /* Bottom Part */
+    #Mid-Right{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+        position: relative;
+        top: 75px;
+    }
+    /* .item{
+        width: 100%;
+        height: 100%;
+    } */
+    .item img{
+        width: 575px;
+        height: 280px;
+    } 
+    #box1{
+        position: absolute;
+        top: 30px;
+        left: 40px;
+        font-size: 22px;
+    }
+    #box2{
+        position: absolute;
+        top: 355px;
+        left: 40px;
+        font-size: 22px;
+    }
+    #box3{
+        position: absolute;
+        bottom: 510px;
+        left: 40px;
+        font-size: 22px;
+    }
+    #box4{
+        position: absolute;
+        bottom: 195px;
+        left: 40px;
+        font-size: 22px;
+    }
+}
